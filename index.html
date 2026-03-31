@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRONIVERSE Tech Solutions</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Flatpickr Date Picker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <img src="logo.png" class="logo">
+
+            <div class="title">
+                <h1>ELECTRONIVERSE</h1>
+                <h3>Tech Solutions</h3>
+            </div>
+
+            <i class="fa-solid fa-bars menu-icon" onclick="toggleMenu()"></i>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="navMenu">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About -->
+    <section class="home-bg">
+        <section id="about">
+            <div class="container about">
+                <h2>About Company</h2>
+                <p>
+                    ELECTRONIVERSE Tech Solutions is a technology-driven company specializing in electronic engineering
+                    services, manufacturing support, and software development solutions. We provide reliable electronic
+                    services and digital solutions to businesses and individuals, focusing on quality, innovation, and
+                    customer satisfaction.
+                    <br><br>
+                    Our expertise includes electronic device rework, assembly, manufacturing support, maintenance
+                    services,
+                    and customized software development. We aim to deliver efficient, cost-effective, and high-quality
+                    solutions that meet modern industry and business requirements.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <div class="container">
+                <h2>Our Professional Services</h2>
+                <div class="services-container">
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-screwdriver-wrench service-icon"></i>
+                        <h3>Electronic Rework & Assembly</h3>
+                        <p>Repair, re-soldering, modification, upgrading, and assembly of electronic circuit boards and
+                            devices.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-industry service-icon"></i>
+                        <h3>Manufacturing</h3>
+                        <p>Manufacturing and development of electronic components and electronic-based products.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-microchip service-icon"></i>
+                        <h3>Consumable Devices</h3>
+                        <p>Supply and sales of electronic consumable devices and accessories.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-tools service-icon"></i>
+                        <h3>Device Maintenance</h3>
+                        <p>Inspection, troubleshooting, repair, and preventive maintenance services.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-laptop-code service-icon"></i>
+                        <h3>Software Development</h3>
+                        <p>Website development, web applications, and customized software solutions.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-headset service-icon"></i>
+                        <h3>Software Support</h3>
+                        <p>Software maintenance, updates, technical support, and performance optimization.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container contact-container">
+                <div class="contact">
+                    <h2>Contact Information</h2>
+                    <p><strong>Company:</strong> ELECTRONIVERSE Tech Solutions</p>
+                    <p><strong>Phone:</strong> +91 70900 56446</p>
+                    <p><strong>Email:</strong> evtechnosolutions@gmail.com</p>
+                    <p><strong>Address:</strong> Anchor 1, Site No1215, Opp to Jodidhars Club, BEL Layout,
+                        Vidyaranyapura, Bengaluru- 560097, Karnataka
+                    </p>
+                </div>
+
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d242.90457249040583!2d77.55681318392224!3d13.069171545558007!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1774532170316!5m2!1sen!2sus"
+                        width="100%" height="250" style="border:0;"></iframe>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div>© 2026 ELECTRONIVERSE Tech Solutions</div>
+
+            <div class="footer-right">
+                <i class="fa-solid fa-calendar-days" id="calendarIcon"></i>
+                <input type="text" id="hiddenDate" class="calendar-input">
+
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
