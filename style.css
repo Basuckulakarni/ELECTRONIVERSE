@@ -14,7 +14,7 @@
 
         /* ===== Home Page Background Image ===== */
         .home-bg {
-            background: url("/background.jpg") no-repeat center center/cover;
+            background: url("background.jpg") no-repeat center center/cover;
         }
 
         /* Make text readable on image */
