@@ -14,10 +14,15 @@ body {
 
 /* ===== Home Page Background Image ===== */
 .home-bg {
-    background: url("background.jpg") no-repeat center center/cover;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 30px 0;
 }
 
-/* Make text readable on image */
 .home-bg .container {
     background: rgba(255, 255, 255, 0.85);
     padding: 25px;
